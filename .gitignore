@@ -5,3 +5,12 @@ __pycache__/
 node_modules/
 client/dist/
 *.egg-info/
+.pytest_cache/
+
+# Secrets — never commit real env files, even though this POC doesn't use one today
+.env
+.env.*
+!.env.example
+
+.DS_Store
+*.log
